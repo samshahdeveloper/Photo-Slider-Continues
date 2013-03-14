@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+div#sliderLists { float:left; width:942px;}
+div#sliderLists div#sliders { float:left; width:936px; position:relative; overflow:hidden;}
+div#sliders div.previous { display:block; position:absolute; z-index:10; left:0px; top:237px; }
+div#sliders div.previous a { display:block; text-indent:-5000px; width:48px; height:63px;  background:url(../images/arrow.png) no-repeat; background-position:0px 0px; }
+div#sliders div.previous a:hover { background-position:0px -63px; }
+div#sliders div.next { display:block; position:absolute; z-index:10; right:0px; top:237px; }
+div#sliders div.next a { display:block; text-indent:-5000px; width:48px; height:63px;  background:url(../images/arrow.png) no-repeat; background-position:-48px 0px; }
+div#sliders div.next a:hover { background-position:-48px -63px; }
+div#sliders div#sliderContent{ float:left; position:relative; height:527px; z-index:0;}
+div#sliders div#sliderContent div.sliderImg{ float:left; width:936px; position:absolute; z-index:4; display:none;}
+div#sliders div#sliderContent div.sliderPlaceholder{ width:936px; height:527px; position:absolute; top:0px; z-index:5;}
+.active{ display:block !important;}
